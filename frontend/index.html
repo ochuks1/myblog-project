@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG BY CATHERINE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to CATHY'S Blog</h1>
+	    <h2>For ALX Capstone Project</h2>
+            <nav>
+                <button onclick="showHome()">Home</button>
+                <button onclick="showLogin()">Login</button>
+                <button onclick="showSignup()">Sign Up</button>
+            </nav>
+        </header>
+        
+        <main id="main-content">
+            <h2>Blog Posts</h2>
+            <div id="posts"></div>
+            <textarea id="new-post" placeholder="Create a new blog post..."></textarea>
+            <button onclick="createPost()">Submit Post</button>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 CATHY'S Blog</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
