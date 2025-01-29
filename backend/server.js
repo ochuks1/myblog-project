@@ -12,13 +12,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB
-connectDB(); // ✅ Use the imported function to connect to MongoDB
+connectDB(); // Using imported function to connect to MongoDB
 
 // Routes
 app.use('/api/posts', postRoutes);
 
 // Start Server
+console.log('MONGO_URI:', process.env.MONGO_URI);
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`✅ Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
