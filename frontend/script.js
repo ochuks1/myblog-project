@@ -1,7 +1,10 @@
-const apiUrl = 'http://localhost:5000/posts';
+const apiUrl = 'http://localhost:5000/api/posts';
 
 async function fetchPosts() {
     const response = await fetch(apiUrl);
+    if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
     const posts = await response.json();
     return posts;
 }
@@ -54,4 +57,4 @@ function showSignup() {
 }
 
 // Load home content when page loads
-document.addEventListener('DOMContentLoaded', showHome);
+document.addEventListener('DOMContentLoaded', showHome)

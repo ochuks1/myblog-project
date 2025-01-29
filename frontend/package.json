@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend directory for my capstone project on blog app",
+  "main": "script.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ochuks1/myblog-project.git"
+  },
+  "author": "Catherine Ochuko Oriavwote",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ochuks1/myblog-project/issues"
+  },
+  "homepage": "https://github.com/ochuks1/myblog-project#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "mongodb": "^6.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.2",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
