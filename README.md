@@ -1,20 +1,17 @@
-MyBlog Project
+CATHY Blog
 
-Overview
+# Overview
 
-MyBlog is a modern blogging platform built using React for the frontend. It allows users to create, read, update, and delete blog posts.
+CATHY Blog is a blogging platform built using React for the frontend. It allows users to create, read, update, and delete blog posts.
 
-Features:
+# Features:
 
 User-friendly interface
 
 Ability to add, edit, and delete blog posts
 
-Responsive design for various devices
 
-Integration with external APIs for additional functionality
-
-Technologies Used
+# Technologies Used
 
 Frontend
 
@@ -28,7 +25,7 @@ Backend: Node.js
 
 
 
-Getting Started
+# Getting Started
 
 Prerequisites
 
@@ -38,13 +35,15 @@ Node.js (version 16 or later)
 
 npm (Node Package Manager)
 
-Installation
+
+# Installation
 
 Clone the repository: git clone https://github.com/ochuks1/myblog-project.git
 
-Run: npm install then npm start on backend directory
+Run: npm install then node server.js on backend directory and npm start on frontend
 
-Contributions are welcome! To contribute:
+
+# Contributions are welcome! To contribute:
 
 Fork the repository.
 
@@ -56,10 +55,13 @@ Push to your branch and submit a pull request.
 
 License: ISC
 
-Contact
+
+# Contact
 
 For inquiries or support, please contact:
 
 GitHub: ochuks1
+
+Linkedin: Catherine Oriavwote
 
 Email: cochuks@gmail.com
